@@ -1,0 +1,8 @@
+{
+    "name": "jdenoc/secrets-migrations",
+    "description": "Database migrations for Secrets project",
+    "type": "library",
+    "require": {
+        "robmorgan/phinx": "^0.6.1"
+    }
+}
