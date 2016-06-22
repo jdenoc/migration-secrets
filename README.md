@@ -12,5 +12,5 @@ The most notable documentation pages are:
 - Make sure that the database `jdenoc_secrets` has been created.
     - Renaming database is optional. Be sure to update the database name in [phinx.yml](phinx.yml)
 - Get database username & password and assign them to the appropriate `user` and `pass` YAML variables in [phinx.yml](phinx.yml)  
-- To run all migrations: `phinx migrate -t 0`
-    - If you intend to use the production values, use the following command instead: `phinx migrate -e production -t 0`
+- To run all migrations: `vendor/bin/phinx migrate`
+    - If you intend to use the production values, use the following command instead: `vendor/bin/phinx migrate -e production`
